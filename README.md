@@ -1,5 +1,5 @@
 # battery-capacity-alert
-A simple your pc or laptop battery capacity alert program using python<br>
+your pc or laptop battery capacity alert program using python<br>
 first run pip3 install requirements.txt <br>
 then check your power_supply file location in your os and replace it in the program<br>
 Like in mine it is present in /sys/class/power_supply/BAT0 or BAT1<br>
