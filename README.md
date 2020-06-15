@@ -8,3 +8,5 @@ then run python3 battery.py
 <h3>What it does</h3>
 the program gives an alert message at 90% and 95% while charging.<br>
 the program gives an alert message at 5% and 10% while discharging.
+<h3>screenshot of the program</h3>
+![](battery.png)
