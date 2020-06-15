@@ -3,8 +3,8 @@ import os
 import pyautogui
 
 #Change the dir to the battery status location of your OS.
-os.chdir('../')
-os.chdir('/sys/class/power_supply/BAT0')
+#os.chdir('../') use this line to change the dir to root or ignore if you are running this program in root. 
+os.chdir('/sys/class/power_supply/BAT0')# this dir may be different in different os.
 
 try:
     while(1):
