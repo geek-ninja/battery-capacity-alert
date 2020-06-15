@@ -8,7 +8,7 @@ os.chdir('/sys/class/power_supply/BAT0')# this dir may be different in different
 
 try:
     while(1):
-        print('Type ctrl + c to stop the program')
+        print('Press ctrl + c to stop the program')
         status = open('status','r').readline().strip()
         if status == 'Charging':
             power = open('capacity','r').readline().strip()
